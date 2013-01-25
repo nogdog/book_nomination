@@ -21,6 +21,14 @@ class Main extends CI_Controller {
 	{
 		$this->load->view('main_page');
 	}
+
+	/**
+	 * callback for OAuth
+	 */
+	public function callback()
+	{
+
+	}
 }
 
 /* End of file welcome.php */
